@@ -1,0 +1,12 @@
+{
+  "APP_NAME": "JSON Config Test App",
+  // Required
+  "JDBC_CONNECTION_STRING": "jdbc:postgresql://localhost/db?user=postgres&password=",
+  "BASE_URL": "http://localhost:8080",
+  // Optional
+  "CHILD_ITEM": {
+    "SOME_VALUE": true,
+    "NUM_VALUE": 895,
+    "OTHER_VALUE": "blah"
+  }
+}
